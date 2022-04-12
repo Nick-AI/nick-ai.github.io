@@ -39,6 +39,7 @@ minimal_mistakes_skin: "dirt"
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # remove rss icon
 atom_feed:
