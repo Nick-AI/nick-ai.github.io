@@ -24,7 +24,7 @@ Curriculum Vitae
 <details>
     <summary> PDF Viewer </summary>
 
-    <object data="../assets/pdfs/YGlaser_CV_04_2022.pdf" width="1500" height="1000" type='application/pdf'></object>
+    <object data="../assets/pdfs/YGlaser_CV_03_2023.pdf" width="1500" height="1000" type='application/pdf'></object>
 
 </details>
 
