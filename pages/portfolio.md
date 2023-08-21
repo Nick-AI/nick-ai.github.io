@@ -20,7 +20,7 @@ PhD Statement of Purpose
 
 Curriculum Vitae
 ---
-[PDF link](https://github.com/Nick-AI/nick-ai.github.io/blob/master/assets/pdfs/YGlaser_CV_04_2022.pdf)
+[PDF link](https://github.com/Nick-AI/nick-ai.github.io/blob/master/assets/pdfs/YGlaser_CV_03_2023.pdf)
 <details>
     <summary> PDF Viewer </summary>
 
