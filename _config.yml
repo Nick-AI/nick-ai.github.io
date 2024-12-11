@@ -57,7 +57,7 @@ defaults:
 # define author sidebar
 author:
   name: "Yannik Glaser"
-  avatar: "/assets/images/profile_pic.png"
+  avatar: "/assets/images/headshot_2023.png"
   bio: "PhD Student - Applied Machine Learning"
   links:
     - label: "Linkedin"
