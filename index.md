@@ -8,12 +8,9 @@ author_profile: true
 
 Usually just "Nick".
 
-This is my personal website and very much a work in progress.
-I plan on writing about papers I'm reading, projects, and whatever else piques my interest in the moment.
+This is my personal website and currently being redone!
 
-You can also find my academic portfolio on here.
-
-Check out some of the labs and groups I work with:
+Check back soon and in the meantime check out some of the labs and groups I work with:
 
 - [Sadowski Group](https://www2.hawaii.edu/~psadow/group/)
 - [AI Precision Health Institute](https://aiphi.shepherdresearchlab.org/)
