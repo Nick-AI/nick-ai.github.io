@@ -4,6 +4,8 @@ layout: collection
 permalink: /portfolio/
 ---
 
+While this is being redone, check out my [resume](https://github.com/Nick-AI/nick-ai.github.io/blob/master/assets/pdfs/yglaser_cv_12102024.pdf) instead!
+<!---
 PhD Statement of Purpose
 ---
 [PDF link](https://github.com/Nick-AI/nick-ai.github.io/blob/master/assets/pdfs/YGlaser_StatementOfPurpose.pdf)
@@ -43,3 +45,5 @@ Literature Review
     <object data="../assets/pdfs/YGlaser_LitReview.pdf" width="1500" height="1000" type='application/pdf'></object>
 
 </details>
+
+-->
