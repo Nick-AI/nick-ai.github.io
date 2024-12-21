@@ -1,0 +1,155 @@
+## Header
+- id: "logo_text1"
+  translation: "Yannik"
+
+- id: "logo_text2"
+  translation: "Glaser"
+
+## Footer
+- id: "footer_notice"
+  translation: "Modified from © Adritian, free Hugo theme by Adrián Moreno Peña."
+
+
+## Homepage head title
+- id: "head_title"
+  translation: "Personal portfolio website for Yannik Glaser"
+
+- id: "head_description"
+  translation: "This is a personal portfolio website reflecting my work and experience. I am a machine learning PhD candidate at the University of Hawaiʻi at Mānoa. My research interests applied machine learning, self-supervised learning, and computer vision. I work on projects at the intersection of machine learning and natural science or medical imaging data."
+
+## Homepage showcase
+- id: "showcase_title"
+  translation: "Hello, I'm Nick."
+
+- id: "showcase_subtitle"
+  translation: "A ML PhD student."
+
+- id: "showcase_description"
+  translation: "Welcome to my portfolio website! I am a machine learning PhD student at the university of University of Hawaiʻi at Mānoa under advisor Peter Sadowski. <br> On this website I host an overview over my research projects, education, and work experience. I plan on writing about interesting things I enounter along my research journey in the future. <br> In the meantime, check out some of the groups I currently work with:
+    <br><a target='sadowski_group' href='https://www2.hawaii.edu/~psadow/group/'>Sadowski Group</a>
+    <br><a target='aiphi' href='https://aiphi.shepherdresearchlab.org/'>AI Precision Health Institute</a>
+    <br><a target='hidsi' href='https://datascience.hawaii.edu/alumni/'>Hawaii Data Science Institute</a>"
+
+- id: "showcase_button"
+  translation: "Contact"
+
+  ## not visible but used for accessibility
+- id: "showcase_image_alt"
+  translation: "A picture of Yannik Glaser"
+
+## Homepage about
+- id: "about_title"
+  translation: "About me"
+
+- id: "about_content"
+  translation:  <p class="lead">
+      I love working on science problems using machine learning. Over the course of my graduate studies I have had the pleasure of exploring many disciplines through the lense of machine learning, including high energy physics, astonomy, biology, remote sensing, and medical imaging.
+      <br> I am currently most passionate about adapting self-supervised learning techniques to work for non-natural image applications by incorporating domain knowledge.
+      <br> I am slated to gradute with my PhD by May 2025 after which I am seeking a challenging position where I can leverage my expertise in machine learning, self-supervised learning, and collaborative problem solving to do innovative work in fields such as medical imaging, remote sensing, climate science, and physics.
+      </p>
+
+- id: "about_button"
+  translation: "About Me"
+
+## Homepage education
+- id: "education_title"
+  translation: "Education"
+
+## Homepage experience
+- id: "experience_title"
+  translation: "Experience"
+
+- id: "experience_description"
+  translation: "My professional experience. My initial background in pure computer science and software engineering has been complemented by my graduate studies in machine learning. I have 6+ years of experience conducting research in a collaborative setting with machine learning experts and a wide range of domain scientists."
+
+- id: "experience_button"
+  translation: "LinkedIn"
+
+- id: "experience_button_url"
+  translation: "https://www.linkedin.com/in/yannik-glaser-886b97135/"
+
+- id: "experience_button2"
+  translation: "Download resume"
+
+- id: "experience_button2_url"
+  translation: "/files/yglaser_cv_12202024.pdf"
+
+- id: "experience_button3"
+  translation: "View all"
+
+- id: "experience_button3_url"
+  translation: "/experience"
+
+# ## Homepage client & work
+# - id: "client_work_title"
+#   translation: "Clients & Work"
+
+# ## Homepage newsletter
+# - id: "newsletter_title"
+#   translation: "Newsletter"
+
+# - id: "newsletter_button"
+#   translation: "Subscribe"
+
+# - id: "newsletter_placeholder"
+#   translation: "Your email"
+
+# - id: "newsletter_success_message"
+#   translation: "Thank you for subscribing to my newsletter!"
+
+# - id: "newsletter_error_message"
+#   translation: "An error occurred. Please try again."
+
+# - id: "newsletter_note"
+#   translation: "We'll never share your email with anyone else."
+
+# ## Homepage testimonials
+# - id: "testimonials_title"
+#   translation: "Testimonials"
+
+# ## Homepage contact
+# - id: "contact_title"
+#   translation: "Contact"
+
+# - id: "contact_button"
+#   translation: "Send message"
+
+# - id: "contact_form_name"
+#   translation: "Full Name"
+
+# - id: "contact_form_email"
+#   translation: "Email Address"
+
+# - id: "contact_form_message"
+#   translation: "Type Your Message Here"
+
+# - id: "contact_phone_title"
+#   translation: "Phone Number"
+
+# - id: "contact_phone_number"
+#   translation: "+555 (11) 123 44 55"
+
+# - id: "contact_email_title"
+#   translation: "Email"
+
+# - id: "contact_email_email"
+#   translation: '<a href="mailto:mail@example.com">mail@example.com</a>'
+
+# - id: "contact_address_title"
+#   translation: "Address"
+
+# - id: "contact_address_address"
+#   translation: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
+
+# - id: "contact_button"
+#   translation: "Send Message"
+
+## Blog
+- id: "read_more"
+  translation: "Read more"
+
+- id: "published_on"
+  translation: "Published en"
+
+- id: "continue_reading"
+  translation: "Continue reading"

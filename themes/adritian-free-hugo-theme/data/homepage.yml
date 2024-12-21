@@ -1,0 +1,77 @@
+## Looking for strings? Check the i18n folder.
+
+# showcase
+showcase:
+  enable: true
+  image:
+    x: "images/headshot_2023.png"
+    _2x: "images/headshot_2023.png"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "linkedin"
+    URL: "https://www.linkedin.com/in/yannik-glaser-886b97135/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/adrianmoreno/"
+
+    - icon: "square-github"
+      URL: "https://github.com/zetxek"
+
+    - icon: "quote-left"
+      URL: "https://scholar.google.com/citations?user=YqrPlbQAAAAJ&hl=ene"
+
+# about
+about:
+  enable: true
+  # button:
+  #   icon: "icon-user"
+  #   URL: "https://www.linkedin.com/in/adrianmoreno/"
+  image:
+    x: "images/group_picture_hike.png"
+    _2x: "images/group_picture_hike.png"
+
+# education
+education:
+  enable: true
+  items:
+    - university: "University of Hawaiʻi at Mānoa"
+      year: "2020-2025"
+      degree: "Ph.D. in Computer Science (GPA: 4.0/4.0)"
+
+    - university: "University of Hawaiʻi at Mānoa"
+      year: "2018-2020"
+      degree: "M.S. in Computer Science (GPA 3.88/4.0)"
+
+    - university: "University of North Georgia"
+      year: "2015-2018"
+      degree: "B.S. in Computer Science (GPA 3.97/4.0)"
+
+# experience
+## to hiden a button, set the icon to an empty string
+experience:
+  enable: true
+  button:
+    icon: "icon-linkedin"
+  button2:
+    icon: "icon-file-pdf"
+  button3:
+    icon: "icon-circle-arrow-right"
+
+# # Client & Work
+# client_and_work:
+#   enable: true
+
+# # testimonial
+# testimonial:
+#   enable: true
+
+# # contact
+# contact:
+#   enable: true
+#   form:
+#     action: "#"
+#   button:
+#     icon: "icon-email"
