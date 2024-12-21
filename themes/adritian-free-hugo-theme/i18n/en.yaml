@@ -26,7 +26,7 @@
 
 - id: "showcase_description"
   translation: "Welcome to my portfolio website! I am a machine learning PhD student at the university of University of Hawaiʻi at Mānoa under advisor Peter Sadowski. <br> On this website I host an overview over my research projects, education, and work experience. I plan on writing about interesting things I enounter along my research journey in the future. <br> In the meantime, check out some of the groups I currently work with:
-    <br><a target='sadowski_group' href='https://www2.hawaii.edu/~psadow/group/'>Sadowski Group</a>
+    <br><a target='sadowski_group' href='https://peterjsadowski.github.io/group/'>Sadowski Group</a>
     <br><a target='aiphi' href='https://aiphi.shepherdresearchlab.org/'>AI Precision Health Institute</a>
     <br><a target='hidsi' href='https://datascience.hawaii.edu/alumni/'>Hawaii Data Science Institute</a>"
 
