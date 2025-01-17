@@ -43,9 +43,9 @@
 
 - id: "about_content"
   translation:  <p class="lead">
-      I love working on science problems using machine learning. Over the course of my graduate studies I have had the pleasure of exploring many disciplines through the lense of machine learning, including high energy physics, astonomy, biology, remote sensing, and medical imaging.
+      I love working on science problems using machine learning. Over the course of my graduate studies I have had the pleasure of exploring many disciplines through the lens of machine learning, including high energy physics, astonomy, biology, remote sensing, and medical imaging.
       <br> I am currently most passionate about adapting self-supervised learning techniques to work for non-natural image applications by incorporating domain knowledge.
-      <br> I am slated to gradute with my PhD by May 2025 after which I am seeking a challenging position where I can leverage my expertise in machine learning, self-supervised learning, and collaborative problem solving to do innovative work in fields such as medical imaging, remote sensing, climate science, and physics.
+      <br> I am slated to graduate with my PhD by May 2025 after which I am seeking a challenging position where I can leverage my expertise in machine learning, self-supervised learning, and collaborative problem solving to do innovative work in fields such as medical imaging, remote sensing, climate science, and physics.
       </p>
 
 - id: "about_button"
