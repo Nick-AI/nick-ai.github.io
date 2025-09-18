@@ -11,11 +11,11 @@ showcase:
 
   button:
     icon: "linkedin"
-    URL: "https://www.linkedin.com/in/yannik-glaser-886b97135/"
+    URL: "https://www.linkedin.com/in/yannikglaser/"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/yannik-glaser-886b97135/"
+      URL: "https://www.linkedin.com/in/yannikglaser/"
 
     - icon: "square-github"
       URL: "https://github.com/Nick-AI/"
