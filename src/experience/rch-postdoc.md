@@ -6,6 +6,6 @@ dateRange: "2025 – Present"
 order: 5
 ---
 
-- **ESA Sentinel-1 modeling:** Building on WV-Net foundation model for image retrieval and semi-supervised learning pipelines for atmospheric science and oceanography applications.
-- **NASA SWOT satellite foundation model:** Development of domain-informed foundation model for the NASA SWOT satellite platform with application to atmospheric and ocean science and climate modeling.
-- **Dual-energy X-ray foundation model:** Refinement of DXA foundation model, optimized for fairness metrics and stable subgroup performance with applications to mortality risk, cardiovascular health, and metabolic disease.
+- **NASA SWOT foundation model:** Leading end-to-end design and training of a domain-informed self-supervised foundation model on terabyte-scale satellite data using multi-GPU distributed training on HPC infrastructure.
+- **Production satellite ML pipelines:** Building image retrieval and semi-supervised learning systems on the WV-Net foundation model, processing millions of ESA Sentinel-1 SAR images for atmospheric science and oceanography applications.
+- **Clinical foundation model:** Refining a dual-energy X-ray foundation model with fairness-aware evaluation pipelines, ensuring stable subgroup performance across mortality risk, cardiovascular health, fracture risk, and metabolic disease prediction.

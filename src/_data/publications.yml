@@ -11,74 +11,108 @@ journal:
     year: 2026
     status: "In preparation"
 
+  - title: "Spectropolarimetric Inversion in Four Dimensions with Deep Learning (SPIn4D). II. A Physics-informed Machine Learning Method for 3D Solar Photosphere Reconstruction"
+    authors: "Yang, ..., Glaser et al."
+    venue: "Astrophysical Journal 995(2):146"
+    year: 2025
+    link: "https://iopscience.iop.org/article/10.3847/1538-4357/ae12ef"
+
   - title: "WV-Net: A foundation model for SAR ocean satellite imagery"
     authors: "Glaser et al."
     venue: "AI for the Earth Systems, AMS"
     year: 2025
+    link: "https://journals.ametsoc.org/view/journals/aies/4/4/AIES-D-25-0003.1.xml?tab_body=fulltext-display"
 
   - title: "SPIn4D I: Overview, MHD modeling, and Stokes profile synthesis"
     authors: "Yang, ..., Glaser et al."
     venue: "Astrophysical Journal 976(2):204"
     year: 2024
+    link: "https://iopscience.iop.org/article/10.3847/1538-4357/ad865b"
 
   - title: "Is AI-enhanced breast ultrasound ready for screening in low-resource environments? A systematic review"
     authors: "Bunnell, ..., Glaser et al."
     venue: "Cancer Research 84(6_Suppl):3449"
     year: 2024
+    link: "https://aacrjournals.org/cancerres/article/84/6_Supplement/3449/738239"
 
   - title: "Generative deep learning furthers understanding of fat/muscle distributions using 3D surface scans"
     authors: "Leong, ..., Glaser et al."
     venue: "Communications Medicine 4(1):13"
     year: 2024
+    link: "https://www.nature.com/articles/s43856-024-00434-w"
 
   - title: "Diffusion models for high-resolution solar forecasts"
     authors: "Hatanaka, Glaser et al."
     venue: "arXiv:2302.00170"
     year: 2023
+    link: "https://arxiv.org/abs/2302.00170"
 
   - title: "Deep learning predicts all-cause mortality from longitudinal total-body DXA imaging"
     authors: "Glaser et al."
     venue: "Communications Medicine 2(1):102"
     year: 2022
     highlight: true
+    link: "https://www.nature.com/articles/s43856-022-00166-9"
 
   - title: "Evolution of left–right asymmetry in sensory system and foraging behavior in cave fish"
     authors: "Fernandes, Glaser et al."
     venue: "BMC Biology 20(1):295"
     year: 2022
+    link: "https://link.springer.com/article/10.1186/s12915-022-01501-1"
 
   - title: "Deep learning for predicting significant wave height from SAR"
     authors: "Quach, Glaser et al."
     venue: "IEEE TGRS 59(3):1859–1867"
     year: 2020
+    file: "quach_2020_wvheight.pdf"
 
 conference:
   - title: "Domain-Specific Foundation Models for Science Applications: Self-Supervised Learning with SAR and DXA"
     authors: "Glaser et al."
     venue: "MICCAI Doctoral Symposium"
     year: 2025
+    link: "https://link.springer.com/book/9783032252432"
 
   - title: "Learning a clinically-relevant concept bottleneck for lesion detection in breast ultrasound"
     authors: "Bunnell, Glaser et al."
     venue: "MICCAI, pp. 650–659"
     year: 2024
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-72384-1_61"
 
   - title: "Evolution-informed neural networks for microbiome data analysis"
     authors: "Ito, Glaser, Sadowski"
     venue: "IEEE BIBM, pp. 3386–3391"
     year: 2021
+    link: "https://par.nsf.gov/servlets/purl/10553813"
 
   - title: "Deep sensing of ocean wave heights with SAR"
     authors: "Quach, Glaser, Stopa, Sadowski"
     venue: "AAAI Spring Symposium"
     year: 2020
+    link: "https://ceur-ws.org/Vol-2587/article_4.pdf"
 
   - title: "Hip fracture risk modeling using DXA and deep learning"
     authors: "Glaser et al."
-    venue: "NeurIPS ML & Physical Sciences Workshop"
+    venue: "Medical Imaging Meets NeurIPS Workshop"
     year: 2019
+    link: "https://neurips.cc/virtual/2020/20994"
+
 
   - title: "Refined redshift regression in cosmology with graph convolution networks"
     authors: "Beck, Sadowski, Glaser, Szapudi"
     venue: "NeurIPS ML & Physical Sciences Workshop"
     year: 2019
+    link: "https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_80.pdf"
+
+theses:
+  - title: "Domain-specific foundation models for science applications: self-supervised learning with SAR and DXA"
+    authors: "Glaser"
+    venue: "Ph.D. Dissertation"
+    year: 2025
+    file: "yglaser_phd_dissertation.pdf"
+
+  - title: Physics-informed neural networks for Belle II kaon versus pion particle identification
+    authors: "Glaser"
+    venue: "Master's Thesis"
+    year: 2020
+    file: "yglaser_ms_thesis.pdf"

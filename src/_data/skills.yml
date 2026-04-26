@@ -5,7 +5,7 @@
   items: DICOM, TIFF/GeoTIFF, NetCDF, HDF5
 
 - category: Modeling
-  items: Self-supervised learning, diffusion models, physics-informed neural networks, graph neural networks, LLMs
+  items: Foundation models, self-supervised learning, diffusion models, physics-informed neural networks, graph neural networks, LLMs
 
 - category: Languages
   items: English (fluent), German (fluent)

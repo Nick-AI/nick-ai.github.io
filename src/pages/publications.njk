@@ -9,7 +9,11 @@ permalink: /publications/
 <div style="margin-top: var(--space-lg); margin-bottom: var(--space-2xl);">
   {% for pub in publications.journal %}
   <div class="pub-entry">
+    {% if pub.link or pub.file %}
+    <a href="{% if pub.link %}{{ pub.link }}{% else %}/assets/{{ pub.file }}{% endif %}" target="_blank" rel="noopener" class="pub-entry__title">{{ pub.title }}</a>
+    {% else %}
     <p class="pub-entry__title">{{ pub.title }}</p>
+    {% endif %}
     <p class="pub-entry__meta">
       {{ pub.authors }} &mdash; <em>{{ pub.venue }}</em>, {{ pub.year }}.
       {% if pub.status %}<span class="tag">{{ pub.status }}</span>{% endif %}
@@ -22,7 +26,27 @@ permalink: /publications/
 <div style="margin-top: var(--space-lg);">
   {% for pub in publications.conference %}
   <div class="pub-entry">
+    {% if pub.link or pub.file %}
+    <a href="{% if pub.link %}{{ pub.link }}{% else %}/assets/{{ pub.file }}{% endif %}" target="_blank" rel="noopener" class="pub-entry__title">{{ pub.title }}</a>
+    {% else %}
     <p class="pub-entry__title">{{ pub.title }}</p>
+    {% endif %}
+    <p class="pub-entry__meta">
+      {{ pub.authors }} &mdash; <em>{{ pub.venue }}</em>, {{ pub.year }}.
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 class="section__title">Theses / Dissertation</h2>
+<div style="margin-top: var(--space-lg);">
+  {% for pub in publications.theses %}
+  <div class="pub-entry">
+    {% if pub.link or pub.file %}
+    <a href="{% if pub.link %}{{ pub.link }}{% else %}/assets/{{ pub.file }}{% endif %}" target="_blank" rel="noopener" class="pub-entry__title">{{ pub.title }}</a>
+    {% else %}
+    <p class="pub-entry__title">{{ pub.title }}</p>
+    {% endif %}
     <p class="pub-entry__meta">
       {{ pub.authors }} &mdash; <em>{{ pub.venue }}</em>, {{ pub.year }}.
     </p>

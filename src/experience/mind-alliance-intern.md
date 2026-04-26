@@ -6,6 +6,6 @@ dateRange: "2018"
 order: 2
 ---
 
-- Built custom NLP named entity recognition web scraper, increasing data acquisition speed by 100%+.
-- Curated novel dataset from schema.org, improving NER model accuracy from 50% to ~90%.
-- Researched and proposed graph database storage stack, reducing data retrieval time by 20%.
+- Built a custom NLP named-entity-recognition web scraper, doubling data acquisition throughput via automated collection.
+- Curated a schema.org-derived training dataset, raising NER model accuracy from 50% to ~90% on internal benchmarks.
+- Researched and proposed a graph-database storage stack, reducing data retrieval time by 20% and enabling new structured-knowledge workflows.

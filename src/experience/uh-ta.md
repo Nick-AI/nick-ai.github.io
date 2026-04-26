@@ -6,6 +6,6 @@ dateRange: "2018"
 order: 3
 ---
 
-- Taught and mentored 60+ students in weekly lab sections.
-- Designed individualized tutoring and workshop sessions; 30% increase in student participation.
-- Collaborated with professors on curriculum, course structure, and assignment creation.
+- Mentored 60+ students in weekly CS lab sections, reinforcing core computer science concepts through hands-on instruction.
+- Designed individualized tutoring and workshop sessions, driving a 30% increase in student participation over the semester.
+- Partnered with faculty on curriculum development, course structure, and assignment design.

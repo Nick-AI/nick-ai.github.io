@@ -6,6 +6,6 @@ dateRange: "2017"
 order: 1
 ---
 
-- Developed custom chatbot for the conversational AI platform team; reduced average response time by 80%.
-- Pioneered adaptation of chatbot training pipeline for the German market.
-- Engineered German word embedding model trained on internal documents; improved German chatbot performance by 60%+.
+- Shipped a production chatbot for the conversational AI platform team, reducing average customer response time by 80%.
+- Led adaptation of the chatbot training pipeline for the German market, broadening enterprise linguistic coverage.
+- Engineered a German word embedding model on internal corpora, improving German chatbot performance by 60%+.
