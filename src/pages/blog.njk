@@ -1,0 +1,21 @@
+---
+layout: layouts/page.njk
+title: Blog
+description: Thoughts on research, tools, and machine learning.
+permalink: /blog/
+---
+
+{% if collections.posts.length %}
+<div class="grid grid--2">
+  {% for post in collections.posts %}
+  <a href="{{ post.url }}" class="card">
+    <span class="card__label">{{ post.date | date("MMM yyyy") }}</span>
+    <h3 class="card__title">{{ post.data.title }}</h3>
+    <p class="card__text">{{ post.data.summary }}</p>
+    <span class="card__link">Read &rarr;</span>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p style="color: var(--color-text-muted);">Coming soon.</p>
+{% endif %}

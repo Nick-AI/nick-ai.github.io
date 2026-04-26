@@ -1,0 +1,58 @@
+---
+layout: layouts/base.njk
+title: Yannik Glaser, Ph.D.
+permalink: /
+---
+
+<div class="gol-backdrop">
+  <canvas id="gol-canvas" class="gol-backdrop__canvas" aria-hidden="true"></canvas>
+
+  {% include "partials/hero.njk" %}
+
+  <section class="container section about-brief">
+    <h2 class="about-brief__heading">About</h2>
+    <p class="about-brief__text">
+      Postdoctoral Researcher at the Research Corporation of Hawaii.
+      I build self-supervised learning foundation models for satellite remote sensing,
+      medical imaging, and solar physics. Ph.D. in Computer Science from the
+      University of Hawaii at Manoa (2025), advised by Peter Sadowski.
+    </p>
+    <a href="/about/" class="inline-link">More about me &rarr;</a>
+  </section>
+
+  <section class="container section">
+    <div class="exp-slider-header">
+      <h2 class="exp-slider-header__title">Experience</h2>
+      <a href="/experience/" class="inline-link">View all &rarr;</a>
+    </div>
+
+    <div class="exp-slider" role="list">
+      {% for entry in collections.experience %}
+      <a href="{{ entry.url }}" class="exp-slide" role="listitem">
+        <span class="exp-slide__date">{{ entry.data.dateRange }}</span>
+        <span class="exp-slide__title">{{ entry.data.jobTitle }}</span>
+        <span class="exp-slide__company">{{ entry.data.company }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="exp-slider-header">
+      <h2 class="exp-slider-header__title">Education</h2>
+      <a href="/about/" class="inline-link">More on About &rarr;</a>
+    </div>
+
+    <div class="exp-slider" role="list">
+      {% for entry in education %}
+      <a href="/about/" class="exp-slide" role="listitem">
+        <span class="exp-slide__date">{{ entry.year }}</span>
+        <span class="exp-slide__title">{{ entry.degree }}</span>
+        <span class="exp-slide__company">{{ entry.institution }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+<script src="/assets/js/game-of-life.js"></script>

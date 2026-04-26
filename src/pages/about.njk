@@ -1,0 +1,48 @@
+---
+layout: layouts/page.njk
+title: About
+description: Research interests, education, and skills.
+permalink: /about/
+---
+
+<div class="prose">
+  <p>
+    I'm a Postdoctoral Researcher at the Research Corporation of Hawaii,
+    working on self-supervised learning foundation models for satellite remote sensing,
+    medical imaging, and solar physics. I received my Ph.D. in Computer Science from the
+    University of Hawaii at Manoa in 2025, advised by Dr. Peter Sadowski.
+  </p>
+
+  <p>
+    My research focuses on building domain-informed foundation models that leverage
+    large-scale unlabeled scientific datasets. I develop self-supervised learning approaches
+    for SAR satellite imagery (12M+ images), dual-energy X-ray absorptiometry, and
+    high-resolution solar observations from the Daniel K. Inouye Solar Telescope.
+  </p>
+</div>
+
+<div class="section">
+  <h2 class="section__title">Education</h2>
+  <div style="margin-top: var(--space-lg);">
+    {% for entry in education %}
+    <div class="timeline-entry">
+      <span class="timeline-entry__date">{{ entry.year }}</span>
+      <h3 class="timeline-entry__title">{{ entry.degree }}</h3>
+      <p class="timeline-entry__company">{{ entry.institution }} &mdash; GPA: {{ entry.gpa }}</p>
+      <p style="color: var(--color-text-muted); font-size: var(--text-sm);">{{ entry.focus }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section" id="skills">
+  <h2 class="section__title">Skills</h2>
+  <div style="margin-top: var(--space-lg);">
+    {% for group in skills %}
+    <div style="margin-bottom: var(--space-lg);">
+      <h3 style="font-size: var(--text-lg); margin-bottom: var(--space-sm);">{{ group.category }}</h3>
+      <p style="color: var(--color-text-muted);">{{ group.items }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

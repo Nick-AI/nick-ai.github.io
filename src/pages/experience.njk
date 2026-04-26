@@ -1,0 +1,17 @@
+---
+layout: layouts/page.njk
+title: Experience
+description: Research and industry positions.
+permalink: /experience/
+---
+
+{% for entry in collections.experience %}
+<div class="timeline-entry">
+  <span class="timeline-entry__date">{{ entry.data.dateRange }}</span>
+  <h3 class="timeline-entry__title">{{ entry.data.jobTitle }}</h3>
+  <p class="timeline-entry__company">{{ entry.data.company }} &mdash; {{ entry.data.location }}</p>
+  <div class="prose" style="margin-top: var(--space-md);">
+    {{ entry.content | safe }}
+  </div>
+</div>
+{% endfor %}

@@ -1,0 +1,38 @@
+<section class="hero">
+  <div class="container hero__content">
+    <p class="hero__greeting">Hi, I'm</p>
+    <h1 class="hero__name">{{ site.shortTitle }}</h1>
+    <p class="hero__tagline">{{ site.bio }}</p>
+
+    <a href="/about/#skills" class="skills-typewriter">
+      I work with <span class="skills-typewriter__word" id="skill-cycle"></span><span class="skills-typewriter__cursor">|</span>
+    </a>
+    <script>
+      (function() {
+        var skills = [{% for group in skills %}{% for skill in group.items.split(", ") %}"{{ skill }}",{% endfor %}{% endfor %}];
+        var el = document.getElementById("skill-cycle");
+        var i = 0, j = 0, deleting = false, pause = 0;
+        function tick() {
+          var word = skills[i];
+          if (pause > 0) { pause--; requestAnimationFrame(tick); return; }
+          if (!deleting) {
+            el.textContent = word.slice(0, ++j);
+            if (j === word.length) { deleting = true; pause = 40; }
+          } else {
+            el.textContent = word.slice(0, --j);
+            if (j === 0) { deleting = false; i = (i + 1) % skills.length; pause = 8; }
+          }
+          setTimeout(tick, deleting ? 30 : 60);
+        }
+        tick();
+      })();
+    </script>
+
+    <div class="hero__links">
+      <a href="/about/" class="btn btn--primary">About Me</a>
+      <a href="/publications/" class="btn btn--outline">Publications</a>
+    </div>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">&#8595;</div>
+</section>

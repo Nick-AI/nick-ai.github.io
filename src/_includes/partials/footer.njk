@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <span>&copy; {{ "" | year }} {{ site.shortTitle }}</span>
+    <div class="site-footer__links">
+      {% for link in site.social %}
+      <a href="{{ link.url }}" class="site-footer__link" aria-label="{{ link.label }}" target="_blank" rel="noopener">
+        {{ link.label }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>

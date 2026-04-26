@@ -1,0 +1,29 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="container site-nav__inner">
+    <a href="/" class="site-nav__logo">{{ site.shortTitle }}</a>
+
+    <button class="site-nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+
+    <div class="site-nav__links">
+      {% for item in site.nav %}
+      <a href="{{ item.url }}" class="site-nav__link">{{ item.label }}</a>
+      {% endfor %}
+
+      {% include "partials/theme-toggle.njk" %}
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.querySelector('.site-nav__toggle').addEventListener('click', function() {
+    var links = document.querySelector('.site-nav__links');
+    var open = links.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', open);
+  });
+</script>

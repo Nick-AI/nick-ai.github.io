@@ -1,0 +1,33 @@
+title: Yannik Glaser, Ph.D.
+shortTitle: Yannik Glaser
+tagline: Postdoctoral Researcher
+bio: >-
+  Self-supervised learning foundation models for satellite remote sensing,
+  medical imaging, and solar physics.
+url: https://nick-ai.github.io
+
+nav:
+  - label: About
+    url: /about/
+  - label: Experience
+    url: /experience/
+  - label: Publications
+    url: /publications/
+  - label: Projects
+    url: /projects/
+  - label: Blog
+    url: /blog/
+
+social:
+  - label: GitHub
+    url: https://github.com/nick-ai
+    icon: github
+  - label: LinkedIn
+    url: https://linkedin.com/in/yannikglaser
+    icon: linkedin
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=YqrPlbQAAAAJ&hl=en
+    icon: scholar
+  - label: CV
+    url: /assets/cv.pdf
+    icon: cv

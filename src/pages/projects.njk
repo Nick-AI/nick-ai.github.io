@@ -1,0 +1,24 @@
+---
+layout: layouts/page.njk
+title: Projects
+description: Research projects and tools.
+permalink: /projects/
+---
+
+<div class="grid grid--2">
+  {% for entry in collections.projects %}
+  <a href="{{ entry.url }}" class="card">
+    <span class="card__label">{{ entry.data.category }}</span>
+    <h3 class="card__title">{{ entry.data.title }}</h3>
+    <p class="card__text">{{ entry.data.summary }}</p>
+    {% if entry.data.tags %}
+    <div class="tags" style="margin-top: var(--space-sm);">
+      {% for tag in entry.data.tech %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <span class="card__link" style="margin-top: var(--space-md); display: inline-block;">Read more &rarr;</span>
+  </a>
+  {% endfor %}
+</div>

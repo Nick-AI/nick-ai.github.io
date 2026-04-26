@@ -1,0 +1,12 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "js-yaml": "^4.1.1"
+  }
+}

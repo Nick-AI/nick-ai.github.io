@@ -1,0 +1,84 @@
+journal:
+  - title: "Mapping the global ocean-atmosphere boundary layer with a SAR satellite foundation model"
+    authors: "Glaser et al."
+    venue: "Remote Sensing of Environment"
+    year: 2026
+    status: "In preparation"
+
+  - title: "A deep learning foundation model for dual-energy X-ray absorptiometry imaging"
+    authors: "Glaser et al."
+    venue: "Radiology"
+    year: 2026
+    status: "In preparation"
+
+  - title: "WV-Net: A foundation model for SAR ocean satellite imagery"
+    authors: "Glaser et al."
+    venue: "AI for the Earth Systems, AMS"
+    year: 2025
+
+  - title: "SPIn4D I: Overview, MHD modeling, and Stokes profile synthesis"
+    authors: "Yang, ..., Glaser et al."
+    venue: "Astrophysical Journal 976(2):204"
+    year: 2024
+
+  - title: "Is AI-enhanced breast ultrasound ready for screening in low-resource environments? A systematic review"
+    authors: "Bunnell, ..., Glaser et al."
+    venue: "Cancer Research 84(6_Suppl):3449"
+    year: 2024
+
+  - title: "Generative deep learning furthers understanding of fat/muscle distributions using 3D surface scans"
+    authors: "Leong, ..., Glaser et al."
+    venue: "Communications Medicine 4(1):13"
+    year: 2024
+
+  - title: "Diffusion models for high-resolution solar forecasts"
+    authors: "Hatanaka, Glaser et al."
+    venue: "arXiv:2302.00170"
+    year: 2023
+
+  - title: "Deep learning predicts all-cause mortality from longitudinal total-body DXA imaging"
+    authors: "Glaser et al."
+    venue: "Communications Medicine 2(1):102"
+    year: 2022
+    highlight: true
+
+  - title: "Evolution of left–right asymmetry in sensory system and foraging behavior in cave fish"
+    authors: "Fernandes, Glaser et al."
+    venue: "BMC Biology 20(1):295"
+    year: 2022
+
+  - title: "Deep learning for predicting significant wave height from SAR"
+    authors: "Quach, Glaser et al."
+    venue: "IEEE TGRS 59(3):1859–1867"
+    year: 2020
+
+conference:
+  - title: "Domain-Specific Foundation Models for Science Applications: Self-Supervised Learning with SAR and DXA"
+    authors: "Glaser et al."
+    venue: "MICCAI Doctoral Symposium"
+    year: 2025
+
+  - title: "Learning a clinically-relevant concept bottleneck for lesion detection in breast ultrasound"
+    authors: "Bunnell, Glaser et al."
+    venue: "MICCAI, pp. 650–659"
+    year: 2024
+
+  - title: "Evolution-informed neural networks for microbiome data analysis"
+    authors: "Ito, Glaser, Sadowski"
+    venue: "IEEE BIBM, pp. 3386–3391"
+    year: 2021
+
+  - title: "Deep sensing of ocean wave heights with SAR"
+    authors: "Quach, Glaser, Stopa, Sadowski"
+    venue: "AAAI Spring Symposium"
+    year: 2020
+
+  - title: "Hip fracture risk modeling using DXA and deep learning"
+    authors: "Glaser et al."
+    venue: "NeurIPS ML & Physical Sciences Workshop"
+    year: 2019
+
+  - title: "Refined redshift regression in cosmology with graph convolution networks"
+    authors: "Beck, Sadowski, Glaser, Szapudi"
+    venue: "NeurIPS ML & Physical Sciences Workshop"
+    year: 2019

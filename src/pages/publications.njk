@@ -1,0 +1,31 @@
+---
+layout: layouts/page.njk
+title: Publications
+description: Journal articles, conference proceedings, and presentations.
+permalink: /publications/
+---
+
+<h2 class="section__title">Journal Articles</h2>
+<div style="margin-top: var(--space-lg); margin-bottom: var(--space-2xl);">
+  {% for pub in publications.journal %}
+  <div class="pub-entry">
+    <p class="pub-entry__title">{{ pub.title }}</p>
+    <p class="pub-entry__meta">
+      {{ pub.authors }} &mdash; <em>{{ pub.venue }}</em>, {{ pub.year }}.
+      {% if pub.status %}<span class="tag">{{ pub.status }}</span>{% endif %}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<h2 class="section__title">Conference Proceedings</h2>
+<div style="margin-top: var(--space-lg);">
+  {% for pub in publications.conference %}
+  <div class="pub-entry">
+    <p class="pub-entry__title">{{ pub.title }}</p>
+    <p class="pub-entry__meta">
+      {{ pub.authors }} &mdash; <em>{{ pub.venue }}</em>, {{ pub.year }}.
+    </p>
+  </div>
+  {% endfor %}
+</div>
