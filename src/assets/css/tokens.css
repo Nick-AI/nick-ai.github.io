@@ -5,14 +5,14 @@
   --color-surface: #f2f4f8;
   --color-text: #2e3440;
   --color-text-muted: #4c566a;
-  --color-accent: #5e81ac;
-  --color-accent-hover: #4c6e96;
+  --color-accent: #4a6f99;
+  --color-accent-hover: #3d5f85;
   --color-border: #d8dee9;
-  --color-link: #5e81ac;
+  --color-link: #4a6f99;
   --color-link-hover: #2e3440;
 
   /* Game of Life */
-  --gol-cell: rgba(94, 129, 172, 0.12);
+  --gol-cell: rgba(74, 111, 153, 0.12);
   --gol-grid: rgba(46, 52, 64, 0.02);
 
   /* --- Type Scale (1.25 ratio) --- */
@@ -52,7 +52,7 @@
   --color-bg-alt: #3b4252;
   --color-surface: #343a48;
   --color-text: #eceff4;
-  --color-text-muted: #8a919e;
+  --color-text-muted: #a8afb5;
   --color-accent: #88c0d0;
   --color-accent-hover: #a3d4e0;
   --color-border: #434c5e;

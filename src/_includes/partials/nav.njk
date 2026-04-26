@@ -12,7 +12,9 @@
 
     <div class="site-nav__links">
       {% for item in site.nav %}
+      {% if item.url == "/blog/" and collections.posts.length == 0 %}{% else %}
       <a href="{{ item.url }}" class="site-nav__link{% if page.url == item.url %} is-active{% endif %}">{{ item.label }}</a>
+      {% endif %}
       {% endfor %}
 
       {% include "partials/theme-toggle.njk" %}

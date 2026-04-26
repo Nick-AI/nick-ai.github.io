@@ -18,6 +18,21 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("year", () => new Date().getFullYear());
 
+  eleventyConfig.addFilter("date", (value, format) => {
+    const d = new Date(value);
+    const opts = { timeZone: "UTC" };
+    if (format === "MMM yyyy") {
+      return d.toLocaleDateString("en-US", { ...opts, month: "short", year: "numeric" });
+    }
+    if (format === "MMMM d, yyyy") {
+      return d.toLocaleDateString("en-US", { ...opts, month: "long", day: "numeric", year: "numeric" });
+    }
+    if (format === "yyyy-MM-dd") {
+      return d.toISOString().slice(0, 10);
+    }
+    return d.toLocaleDateString("en-US", { ...opts, month: "2-digit", day: "2-digit", year: "numeric" });
+  });
+
   return {
     dir: {
       input: "src",
