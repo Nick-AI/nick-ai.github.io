@@ -12,7 +12,7 @@
 
     <div class="site-nav__links">
       {% for item in site.nav %}
-      <a href="{{ item.url }}" class="site-nav__link">{{ item.label }}</a>
+      <a href="{{ item.url }}" class="site-nav__link{% if page.url == item.url %} is-active{% endif %}">{{ item.label }}</a>
       {% endfor %}
 
       {% include "partials/theme-toggle.njk" %}

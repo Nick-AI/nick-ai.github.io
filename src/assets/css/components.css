@@ -43,8 +43,15 @@
   transition: color var(--transition-fast);
 }
 
-.site-nav__link:hover {
+.site-nav__link:hover,
+.site-nav__link.is-active {
   color: var(--color-accent);
+}
+
+.site-nav__link.is-active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
 }
 
 .site-nav__toggle {
