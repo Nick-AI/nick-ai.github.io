@@ -80,6 +80,6 @@
   }
 
   .page-header {
-    padding-top: var(--space-lg);
+    padding-top: calc(3.5rem + var(--space-lg));
   }
 }
