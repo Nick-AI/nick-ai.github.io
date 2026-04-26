@@ -1,5 +1,5 @@
 - category: Software
-  items: Python, TensorFlow, Keras, PyTorch, SLURM, PySpark, Git, Docker, Singularity, GCP, Java, Unix
+  items: Python, TensorFlow, Keras, PyTorch, SLURM, PySpark, Git, Docker, Singularity, GCP, Java, Unix, LaTeX
 
 - category: Data Formats
   items: DICOM, TIFF/GeoTIFF, NetCDF, HDF5
