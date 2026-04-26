@@ -9,7 +9,7 @@ permalink: /
 
   {% include "partials/hero.njk" %}
 
-  <section class="container section about-brief">
+  <section class="container section about-brief fade-in">
     <h2 class="about-brief__heading">About</h2>
     <p class="about-brief__text">
       Postdoctoral Researcher at the Research Corporation of Hawaii.
@@ -20,7 +20,7 @@ permalink: /
     <a href="/about/" class="inline-link">More about me &rarr;</a>
   </section>
 
-  <section class="container section">
+  <section class="container section fade-in">
     <div class="exp-slider-header">
       <h2 class="exp-slider-header__title">Experience</h2>
       <a href="/experience/" class="inline-link">View all &rarr;</a>
@@ -37,7 +37,7 @@ permalink: /
     </div>
   </section>
 
-  <section class="container section">
+  <section class="container section fade-in">
     <div class="exp-slider-header">
       <h2 class="exp-slider-header__title">Education</h2>
       <a href="/about/" class="inline-link">More on About &rarr;</a>
@@ -56,3 +56,21 @@ permalink: /
 </div>
 
 <script src="/assets/js/game-of-life.js"></script>
+<script>
+(function () {
+  var els = document.querySelectorAll(".fade-in");
+  if (!els.length || !("IntersectionObserver" in window)) {
+    els.forEach(function (el) { el.classList.add("fade-in--visible"); });
+    return;
+  }
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add("fade-in--visible");
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  els.forEach(function (el) { observer.observe(el); });
+})();
+</script>
