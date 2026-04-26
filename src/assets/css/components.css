@@ -167,8 +167,38 @@
 
 .hero__links {
   display: flex;
+  align-items: center;
   gap: var(--space-md);
   flex-wrap: wrap;
+}
+
+.hero__social-icons {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-left: var(--space-xs);
+}
+
+.hero__social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text-muted);
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.hero__social-icon:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.hero__social-icon svg {
+  width: 1.125rem;
+  height: 1.125rem;
 }
 
 .hero__scroll-hint {
