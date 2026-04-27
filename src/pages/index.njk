@@ -26,15 +26,17 @@ permalink: /
       <a href="/experience/" class="inline-link">View all &rarr;</a>
     </div>
 
-    <div class="exp-slider" role="list">
+    <ul class="exp-slider">
       {% for entry in collections.experience %}
-      <a href="{{ entry.url }}" class="exp-slide" role="listitem">
-        <span class="exp-slide__date">{{ entry.data.dateRange }}</span>
-        <span class="exp-slide__title">{{ entry.data.jobTitle }}</span>
-        <span class="exp-slide__company">{{ entry.data.company }}</span>
-      </a>
+      <li class="exp-slide">
+        <a href="{{ entry.url }}">
+          <span class="exp-slide__date">{{ entry.data.dateRange }}</span>
+          <span class="exp-slide__title">{{ entry.data.jobTitle }}</span>
+          <span class="exp-slide__company">{{ entry.data.company }}</span>
+        </a>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
   </section>
 
   <section class="container section fade-in" style="--fade-order:2">
@@ -43,15 +45,17 @@ permalink: /
       <a href="/about/" class="inline-link">More on About &rarr;</a>
     </div>
 
-    <div class="exp-slider" role="list">
+    <ul class="exp-slider">
       {% for entry in education %}
-      <a href="/about/" class="exp-slide" role="listitem">
-        <span class="exp-slide__date">{{ entry.year }}</span>
-        <span class="exp-slide__title">{{ entry.degree }}</span>
-        <span class="exp-slide__company">{{ entry.institution }}</span>
-      </a>
+      <li class="exp-slide">
+        <a href="/about/">
+          <span class="exp-slide__date">{{ entry.year }}</span>
+          <span class="exp-slide__title">{{ entry.degree }}</span>
+          <span class="exp-slide__company">{{ entry.institution }}</span>
+        </a>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
   </section>
 </div>
 
