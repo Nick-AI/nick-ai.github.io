@@ -23,9 +23,12 @@
 </nav>
 
 <script>
-  document.querySelector('.site-nav__toggle').addEventListener('click', function() {
-    var links = document.querySelector('.site-nav__links');
-    var open = links.classList.toggle('is-open');
-    this.setAttribute('aria-expanded', open);
-  });
+  var toggle = document.querySelector('.site-nav__toggle');
+  if (toggle) {
+    toggle.addEventListener('click', function() {
+      var links = document.querySelector('.site-nav__links');
+      var open = links.classList.toggle('is-open');
+      this.setAttribute('aria-expanded', open);
+    });
+  }
 </script>
